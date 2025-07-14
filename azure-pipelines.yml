@@ -7,7 +7,9 @@ trigger:
 - master
 
 pool:
-  vmImage: ubuntu-latest
+    name: az700vm
+    demands:
+      - Agent.Name -equals agent_1
 
 steps:
 - script: echo Hello, world!
