@@ -7,9 +7,7 @@ trigger:
 - master
 
 pool:
-    name: az700vm
-    demands:
-      - Agent.Name -equals agent_1
+    name: az700vm    
 
 stages:
   - stage:
