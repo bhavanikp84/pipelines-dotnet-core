@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-    name: vmss_pool    
+    name: azvmss-pool   
 
 stages:
   - stage:
