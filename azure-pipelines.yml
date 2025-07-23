@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-    name: aks_dev_pool    
+    name: vmss_agent_pool    
 
 stages:
   - stage:
